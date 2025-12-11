@@ -12,7 +12,7 @@ dnf group install -y "Development Tools"
 dnf install -y maven oidc-agent-cli java-21-openjdk-devel
 ```
 
-We assume you already have a functional dCache configuration and database. If you haven't, please follow the steps in https://www.dcache.org/manuals/Book-10.2/install.shtml. 
+We assume you already have a functional dCache configuration and database. If you haven't, please follow the steps in https://www.dcache.org/manuals/Book-10.2/install.shtml, or use the [dCache-aio](https://github.com/sara-nl/dcache_aio) script to quickly set up a simple dCache instance. 
 
 ## 2. First time
 
