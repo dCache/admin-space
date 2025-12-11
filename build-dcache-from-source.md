@@ -107,7 +107,7 @@ java -version
 update-alternatives --config java
 ```
 
-If the Java version was not the problem, please look in the logs (probably /var/log, or view with `journalctl -u name-of-dcache-service`) for errors.
+If the Java version was not the problem, please look in the logs (probably /var/log or /var/log/dcache, or view with `journalctl -u name-of-dcache-domain`) for errors.
 
 ## 7. Roll back
 
